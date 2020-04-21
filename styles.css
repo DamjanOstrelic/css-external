@@ -1,0 +1,100 @@
+  #body {
+    background-color: aliceblue;
+    font-family: sans-serif;
+  }
+
+  .image-container-description {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 500px));
+    grid-gap: 16px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .image-container-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+    grid-gap: 16px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .start-container {
+    display: flex;
+    margin-left: 14.1%;
+  }
+  .container {
+    text-align: center;
+    padding-left: 64px;
+  }
+  #start-img-container {
+    padding: 0;
+  }
+  .center {
+    text-align: center;
+    width: 65%;
+    margin-left: 6%;
+  }
+
+  #img {
+    width: 400px;
+    height: auto;
+    border-radius: 50%;
+  }
+  #div {
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  #h1,
+  #h2 {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .how-to-container {
+    margin-left: 13%;
+    width: 47%;
+  }
+  #how-to {
+    width: 200px;
+    height: auto;
+    border-radius: 0;
+    padding: 10px;
+  }
+  #start-img {
+    height: 250px;
+    width: auto;
+    border-radius: 0;
+  }
+
+  #description-img {
+    border-radius: 0;
+    height: 400px;
+    width: auto;
+  }
+
+  #li {
+    padding: 5px;
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+  }
+  #ul {
+    text-align: left;
+    height: 84px;
+  }
+  #ol {
+    text-align: left;
+    height: 84px;
+  }
+  #product-info {
+    text-align: left;
+    font-size: 1.1rem;
+  }
+
+  #breathing {
+    text-align: center;
+    list-style-position: inside;
+  }
